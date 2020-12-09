@@ -5,6 +5,7 @@ Ahmad Zidny Rofi Amir
 17080132
 5C
 
-
--Menggunakan Database Realm
+Kami dalam menyelesaikan projek akan menggunakan :
+-Database Realm
+Untuk membuat sebuah database :
 -Data Karyawan
