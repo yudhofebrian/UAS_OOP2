@@ -12,7 +12,3 @@ Kami dalam menyelesaikan projek akan menggunakan :
 Untuk membuat sebuah database :
 -Data Karyawan
 =======
-
-
--Menggunakan Database Realm 
--Data Karyawan
