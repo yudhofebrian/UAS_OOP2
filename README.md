@@ -7,6 +7,12 @@ Ahmad Zidny Rofi Amir
 5C
 
 
+Kami dalam menyelesaikan projek akan menggunakan :
+-Database Realm
+Untuk membuat sebuah database :
+-Data Karyawan
+=======
+
 
 -Menggunakan Database Realm 
 -Data Karyawan
