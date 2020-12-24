@@ -13,3 +13,4 @@ class Skill : RealmObject() {
         const val PROPERTY_SKILL = "skillName"
     }
 }
+//

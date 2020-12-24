@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         inAge = findViewById(R.id.inAge)
         inSkill = findViewById(R.id.inSkill)
     }
-
+//
     override fun onClick(view: View) {
         when (view.id) {
             R.id.btnAdd -> addEmployee()
