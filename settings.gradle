@@ -1,2 +1,2 @@
-include ':crudkaryawan.app'
-rootProject.name = "crudkaryawan"
+include ':app'
+rootProject.name = "crudmakanan"
