@@ -35,7 +35,7 @@ class UserActivity : AppCompatActivity() {
     fun loadUser() {
         CoroutineScope(Dispatchers.IO).launch {
             val allUser = db.userDao().getAllUser()
-            Log.d("UserActivity", "dbResponse: $allUser")
+            Log.d("AdduserActivity", "dbResponse: $allUser")
             withContext(Dispatchers.Main) {
                 userAdapter.setData(allUser)
             }

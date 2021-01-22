@@ -15,7 +15,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class UserActivity : AppCompatActivity() {
+class AdduserActivity : AppCompatActivity() {
 
     val db by lazy { AppRoomDB(this) }
     lateinit var userAdapter: UserAdapter
@@ -35,7 +35,7 @@ class UserActivity : AppCompatActivity() {
     fun loadUser() {
         CoroutineScope(Dispatchers.IO).launch {
             val allUser = db.userDao().getAllUser()
-            Log.d("UserActivity", "dbResponse: $allUser")
+            Log.d("AdduserActivity", "dbResponse: $allUser")
             withContext(Dispatchers.Main) {
                 userAdapter.setData(allUser)
             }

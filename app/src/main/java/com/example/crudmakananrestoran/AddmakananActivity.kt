@@ -15,7 +15,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class makananActivity : AppCompatActivity() {
+class AddmakananActivity : AppCompatActivity() {
 
     val db by lazy { AppRoomDB(this) }
     lateinit var makananAdapter: makananAdapter

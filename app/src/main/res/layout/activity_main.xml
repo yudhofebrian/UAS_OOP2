@@ -27,7 +27,7 @@
         android:layout_height="96dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/button_add"
-        android:text="Makanan"
+        android:text="Tambah Makanan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
